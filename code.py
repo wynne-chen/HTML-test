@@ -19,7 +19,7 @@ components.html(
         h1 {
             font-size:100px;
             font-family:"Montserrat";
-	    font-weight: bold;
+	    font-weight: 900;
         }
         
         div {
@@ -60,6 +60,10 @@ components.html(
             border-radius: 15px;
         }
         
+	.pLink:hover{
+            background-color: "#F94A65";
+        }
+	
         .pLink:active{
             background-color: "#F94A65";
         }
@@ -80,9 +84,9 @@ components.html(
     
     <hr />
     
-    <button class="pLink" onclick="window.location.href = 'https://github.com/wynne-chen/DSI-37-Project-1.git';"> Climate Change and Food Delivery </button>
+    <button class="pLink" onclick= "window.open('https://github.com/wynne-chen/DSI-37-Project-1.git', '_blank')"> Climate Change and Food Delivery </button>
     <br>
-    <button class="pLink" onclick="window.location.href = 'https://github.com/wynne-chen/DSI-37-Project-2.git';"> HDB Resale Price Predictor </button>
+    <button class="pLink" onclick= "window.open('https://github.com/wynne-chen/DSI-37-Project-2.git', '_blank')"> HDB Resale Price Predictor </button>
     
     """,
 	width = 660,
