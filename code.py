@@ -8,6 +8,7 @@ components.html(
 	<title> General Assembly - DSI 37 </title>
 	<link rel="stylesheet" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'> 
 	<style> 
 		body {
 			background-color:#fed500;
@@ -18,7 +19,7 @@ components.html(
         
         h1 {
             font-size:100px;
-            font-family:Roboto;
+            font-family:"Roboto";
 	    font-weight: 900;
         }
         
