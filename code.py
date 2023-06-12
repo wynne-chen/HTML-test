@@ -1,14 +1,82 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
+<head>
+	<title> General Assembly - DSI 37 </title>
+	<link rel="stylesheet" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<style> 
+		body {
+			background-color:#fed500;
+		}
+        img {
+            display: vertical-align;
+        }
+        
+        h1 {
+            font-size:100px;
+            font-family:"Bebas Neue";
+        }
+        
+        div {
+            font-size:50px;
+            font-family:"Bebas Neue";
+        }
+        
+        .centre{
+            display: block;
+	        margin-left: auto;
+	        margin-right: auto;
+	        width: 50%;
+        }
+    
+        marquee{
+            font-size:100px; 
+	        font-family:impact;"
+        }
+    
+        .cvLink{
+            background-color: #FD9AA7;
+            border: none;
+            color: white;
+            padding: 20px 34px;
+            text-align: center;
+            text-decoration: none;
+            font-family:Montserrat;
+            display: inline-block;
+            font-size: 20px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+        
+        .pLink:active{
+            background-color: "#F94A65";
+        }
+
+	</style>
+
+</head>
+
 # Specify html code below
 components.html(
     """
-    <h1> My Portfolio </h1>
+    <h1> Test Portfolio For DSI 37 </h1>
+    
+    <img src ="https://gamepress.gg/pokemongo/sites/pokemongo/files/2020-06/600px-025Pikachu-Libre.png"
+	class="centre"; 
+	alt="Pika pika!!"
+	/>
+    
     <div> I am a junior data scientist specialising in Python and Machine Learning.</div>
+    
     <hr />
-    <div> Project 1 - <a href="http://www.github.com" target="_blank">GitHub Link</a> </div>
-    <div> Project 2 - <a href="http://www.github.com" target="_blank">GitHub Link</a> </div>
+    
+    <button class="pLink" onclick="window.location.href = 'https://github.com/wynne-chen/DSI-37-Project-1.git';"> Climate Change and Food Delivery </button>
+    <br>
+    <button class="pLink" onclick="window.location.href = 'https://github.com/wynne-chen/DSI-37-Project-2.git';"> HDB Resale Price Predictor </button>
+
+   
     """,
-    height=600,
+    
 )
