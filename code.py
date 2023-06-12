@@ -20,7 +20,7 @@ components.html(
         h1 {
             font-size:100px;
             font-family:"Roboto";
-	    font-weight: black 900;
+	    font-weight: 900;
         }
         
         div {
@@ -86,7 +86,7 @@ components.html(
 	/>
     
     <div> I am a junior data scientist specialising in </div>
-    <div id="languages">Python and Machine Learning.</div>
+    <div id="languages">Python and Machine Learning</div>
     
     <hr />
     
