@@ -92,6 +92,7 @@ components.html(
     
     <button class="pLink" onclick= "window.open('https://github.com/wynne-chen/DSI-37-Project-1.git', '_blank')"> Climate Change and Food Delivery </button>
     <br>
+    <br>
     <button class="pLink" onclick= "window.open('https://github.com/wynne-chen/DSI-37-Project-2.git', '_blank')"> HDB Resale Price Predictor </button>
     
     """,
