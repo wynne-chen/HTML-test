@@ -18,12 +18,12 @@ components.html(
         
         h1 {
             font-size:100px;
-            font-family:"Bebas Neue";
+            font-family:"Montserrat";
         }
         
         div {
             font-size:50px;
-            font-family:"Bebas Neue";
+            font-family:"Montserrat";
         }
         
         .centre{
