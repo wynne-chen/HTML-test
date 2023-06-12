@@ -77,9 +77,7 @@ components.html(
     <br>
     <button class="pLink" onclick="window.location.href = 'https://github.com/wynne-chen/DSI-37-Project-2.git';"> HDB Resale Price Predictor </button>
     
-    width = 660
-    height = 1480
-   
     """,
-    
+	width = 660,
+    	height = 1480,
 )
