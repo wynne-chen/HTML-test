@@ -18,7 +18,7 @@ components.html(
         
         h1 {
             font-size:100px;
-            font-family:"Montserrat";
+            font-family:"Roboto";
 	    font-weight: 900;
         }
         
@@ -94,6 +94,6 @@ components.html(
     <button class="pLink" onclick= "window.open('https://github.com/wynne-chen/DSI-37-Project-2.git', '_blank')"> HDB Resale Price Predictor </button>
     
     """,
-	width = 1000,
-    	height = 4000,
+	width = 660,
+    	height = 1480,
 )
