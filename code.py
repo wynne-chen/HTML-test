@@ -58,14 +58,19 @@ components.html(
             margin: 4px 2px;
             cursor: pointer;
             border-radius: 15px;
+	    box-shadow: 2px 5px #F3F1E5
         }
         
 	.pLink:hover{
-            background-color: "#F94A65";
+            background-color: #F94A65;
         }
 	
         .pLink:active{
-            background-color: "#F94A65";
+            background-color: #F94A65;
+	    box-shadow: 1px 2px #F3F1E5;
+	    transform: translateY(3px);
+	    transform: translateX(1px);
+	    
         }
 
 	</style>
@@ -89,6 +94,6 @@ components.html(
     <button class="pLink" onclick= "window.open('https://github.com/wynne-chen/DSI-37-Project-2.git', '_blank')"> HDB Resale Price Predictor </button>
     
     """,
-	width = 660,
-    	height = 1480,
+	width = 1000,
+    	height = 4000,
 )
