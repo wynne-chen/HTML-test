@@ -1,7 +1,10 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-<head>
+# Specify html code below
+components.html(
+    """
+    <head>
 	<title> General Assembly - DSI 37 </title>
 	<link rel="stylesheet" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
@@ -57,10 +60,7 @@ import streamlit.components.v1 as components
 	</style>
 
 </head>
-
-# Specify html code below
-components.html(
-    """
+    
     <h1> Test Portfolio For DSI 37 </h1>
     
     <img src ="https://gamepress.gg/pokemongo/sites/pokemongo/files/2020-06/600px-025Pikachu-Libre.png"
