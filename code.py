@@ -20,7 +20,7 @@ components.html(
         h1 {
             font-size:100px;
             font-family:"Roboto";
-	    font-weight: 900;
+	    font-weight: black 900;
         }
         
         div {
