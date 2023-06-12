@@ -19,7 +19,7 @@ components.html(
         h1 {
             font-size:100px;
             font-family:"Montserrat";
-	    text-decoration: bold;
+	    font-weight: bold;
         }
         
         div {
@@ -27,6 +27,12 @@ components.html(
             font-family:"Montserrat";
         }
         
+	#languages {
+            font-size:80px;
+            font-family:"Montserrat";
+	    font-weight: bold;
+        }
+	
         .centre{
             display: block;
 	        margin-left: auto;
@@ -39,7 +45,7 @@ components.html(
 	        font-family:impact;"
         }
     
-        .cvLink{
+        .pLink{
             background-color: #FD9AA7;
             border: none;
             color: white;
@@ -69,7 +75,8 @@ components.html(
 	alt="Pika pika!!"
 	/>
     
-    <div> I am a junior data scientist specialising in Python and Machine Learning.</div>
+    <div> I am a junior data scientist specialising in </div>
+    <div id="languages">Python and Machine Learning.</div>
     
     <hr />
     
